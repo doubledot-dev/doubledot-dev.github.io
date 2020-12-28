@@ -4,7 +4,7 @@ section {
 }
 
 .menus {
-    background-color: #0b46b2;
+    background-color: #0b46b2!important;
     padding-bottom: 0;
     padding-bottom: env(safe-area-inset-bottom, 0);
 }
