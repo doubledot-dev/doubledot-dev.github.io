@@ -1,11 +1,4 @@
 
-.menus {
-    background-color: #ff3399!important;
-    padding-bottom: 0;
-    padding-bottom: env(safe-area-inset-bottom, 0);
-}
-
-
 @font-face{
     font-family: 'SpoqaHanSansNeo-Bold';
     src:url('../fonts/SpoqaHanSansNeo-Bold.woff') format('woff'),
@@ -235,39 +228,6 @@ button::-moz-focus-inner {
 .mobile .block-mb{ display: block; }
 
 
-/* 스와이퍼 scrollbar custom ( zeronine )*/
-.detail-product .swiper-container-horizontal > .swiper-scrollbar,
-.teaser-concert .swiper-container-horizontal > .swiper-scrollbar,
-.gift-container .swiper-container-horizontal > .swiper-scrollbar,
-.lab-space .swiper-container-horizontal > .swiper-scrollbar{
-    width: 80.9% !important;
-    left: 50% !important;
-    transform: translate3d( -50%, 0, 0 );
-    border-radius: 0 !important;
-    height: 3px !important;
-}
-
-.swiper-container{
-    overflow: initial !important;
-}
-
-.desktop .detail-product .swiper-container-horizontal > .swiper-scrollbar,
-.desktop .teaser-concert .swiper-container-horizontal > .swiper-scrollbar,
-.desktop .gift-container .swiper-container-horizontal > .swiper-scrollbar,
-.desktop .lab-space .swiper-container-horizontal > .swiper-scrollbar{
-    width: 100% !important;
-}
-
-.detail-product .swiper-scrollbar-drag,
-.teaser-concert .swiper-scrollbar-drag,
-.gift-container .swiper-scrollbar-drag,
-.lab-space .swiper-scrollbar-drag{
-    background: rgba( 0, 0, 0, 1 ) !important;
-    border-radius: 0 !important;
-}
-/* // 스와이퍼 scrollbar custom ( zeronine )*/
-
-
 
 
 .loaded .loading {
@@ -299,19 +259,6 @@ button::-moz-focus-inner {
 }
 
 
-
-/* comp-detail-info.vue 에서 사용하는 버튼 */
-.detail-info .detail-info__txt-btn{
-    color: #009D39 !important;
-    font-family: "NotoIKEAKorean-Bold";
-    text-decoration: underline;
-}
-
-
-.effort-wrap .effort-wrap__btn{
-    color: #009D39 !important;
-    font-family: "NotoIKEAKorean-Bold";
-}
 
 @keyframes loading-logo {
 0% {  opacity: 0.5;  }
@@ -349,6 +296,10 @@ button::-moz-focus-inner {
 :lang(ko) .ko-only {
     display: block;
 }
+
+
+
+
 
 
 
@@ -391,6 +342,19 @@ a {
 
 
 
+
+
+
+
+/*body {
+    overflow: hidden;
+    width: 100%; height: 100vh;
+}
+
+#app .content {
+    overflow-y: scroll;
+    height: 100vh;
+}*/
 
 
 
