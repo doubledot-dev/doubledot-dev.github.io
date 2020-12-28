@@ -5,6 +5,7 @@
     "start_url": ".",
     "display": "standalone",
     "theme_color": "#dfb413",
+    "background_color": "#dfb413",
     "icons": [
         {
             "src": "./nutoon_512x512.png",
