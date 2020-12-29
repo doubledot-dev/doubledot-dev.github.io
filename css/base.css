@@ -15,9 +15,6 @@
     font-display: swap;
 }
 
-body {
-    opacity: 0.1!important;
-}
 
 /*  popup scroll */
 html.not-scroll { overflow: hidden; }
@@ -310,8 +307,12 @@ button::-moz-focus-inner {
 html.expand-mode {
     overflow: hidden;
     height: 100vh;
+}
 
-
+html.expand-mode-end .content {
+    /*overflow: hidden;*/
+    /*height: 100vh;*/
+    /*transform: translate3d(0, var(--offsetTop),0);*/
 }
 /*body * { touch-action: none; }*/
 
