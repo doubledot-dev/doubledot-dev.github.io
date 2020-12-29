@@ -15,6 +15,9 @@
     font-display: swap;
 }
 
+body {
+    opacity: 0.1!important;
+}
 
 /*  popup scroll */
 html.not-scroll { overflow: hidden; }
