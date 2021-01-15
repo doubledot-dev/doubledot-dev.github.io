@@ -3,7 +3,7 @@
     "short_name": "notoon",
     "lang": "ko-KR",
     "start_url": ".",
-    "display": "fullscreen",
+    "display": "standalone",
     "theme_color": "#dfb413",
     "icons": [
         {

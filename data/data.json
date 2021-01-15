@@ -1,9 +1,93 @@
 {
-    "main" : {
-        "name" : "Main"
-    },
+    "title": "NuToon",
+    "list_cartoonist": [
+        {
+            "cartoonist": "guigui",
+            "cartoonist_image": "/images/main/img_menu01.png",
 
-    "about" : {
-        "name" : "About"
-    }
+            "category": [
+                {
+                    "name": "TOON",
+                    "nametag_image": "/images/guigui/artist/nametag_toon.png",
+                    "work":{
+
+                    },
+                    "notice":{
+
+                    },
+                    "advertise":{
+
+                    }
+                },
+                {
+                    "name": "ARTIST",
+                    "nametag_image": "/images/guigui/artist/nametag_artist.png",
+                    "about":{
+
+                    },
+                    "auction":{
+
+                    },
+                    "draw":{
+
+                    },
+                    "callabo":{
+
+                    },
+                    "itemshop":{
+
+                    },
+                    "goods":{
+
+                    }
+                },
+                {
+                    "name": "TALK",
+                    "nametag_image": "/images/guigui/artist/nametag_toon.png",
+                    "visual": {
+
+                    }
+                },
+                {
+                    "name": "ME",
+                    "nametag_image": "/images/guigui/artist/nametag_toon.png",
+                    "visual": {
+
+                    }
+                }
+            ]
+
+        },
+
+
+        {
+            "cartoonist": "majo",
+            "cartoonist_image": "/images/main/img_menu03.png"
+        },
+
+        {
+            "cartoonist": "ksj",
+            "cartoonist_image": "/images/main/img_menu02.png"
+        },
+
+        {
+            "cartoonist": "sakk",
+            "cartoonist_image": "/images/main/img_menu00.png"
+        },
+
+        {
+            "cartoonist": "hym",
+            "cartoonist_image": "/images/main/img_menu04.png"
+        },
+
+        {
+            "cartoonist": "wsy",
+            "cartoonist_image": "/images/main/img_menu05.png"
+        }
+
+
+
+    ]
+
+
 }
