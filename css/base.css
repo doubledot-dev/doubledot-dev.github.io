@@ -123,8 +123,9 @@ table {
 html,
 body {
     font-family: 'SpoqaHanSansNeo-Regular', 'HelveticaNeue-Roman','애플 SD 산돌고딕 Neo','Apple SD Gothic Neo','Noto Sans KR','맑은고딕','Nanum Gothic',sans-serif;
-    background-color: #fff;
+    background-color: #000;
     color: #000;
+    /*transition: background-color 0.2s;*/
 }
 
 a, a:visited, a:link, a:hover {

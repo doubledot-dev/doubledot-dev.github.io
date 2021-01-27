@@ -4,7 +4,7 @@
     "lang": "ko-KR",
     "start_url": ".",
     "display": "standalone",
-    "theme_color": "#dfb413",
+    "theme_color": "#ffd91f",
     "icons": [
         {
             "src": "./nutoon_512x512.png",
