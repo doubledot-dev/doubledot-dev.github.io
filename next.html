@@ -37,12 +37,24 @@
     <style>
         .btn-wrap {
             position: absolute;
+            top: 0;
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            align-content: center;
+            flex-direction: row;
         }
 
         .btn-wrap a {
-            width: 50px; height: 50px;
+            position: relative;
+            display: flex;
+            justify-content: center;
+            align-content: center;
+
+            width: 100px; height: 50px;
             background-color: blue;
             color: #eeeeee;
+            margin: 20px;
         }
         body {
             font-family: Helvetica Neu, Arial, sans-serif;
@@ -97,10 +109,15 @@
 
 </head>
 <body onload="main2()">
-<canvas width="600" height="600" id='jeeFaceFilterCanvas'></canvas>
+<div class='canvasContainer'>
+    <div id="openMouthInstruction">Open mouth once</div>
+    <canvas width="600" height="600" id='jeeFaceFilterCanvas'></canvas>
+    <canvas width="1200" height="1200" id="canvasVideoEffect"></canvas>
+    <canvas width="600" height="600" id='frameCanvas' class='frameCanvas'></canvas>
+</div>
 <div class="btn-wrap">
-    <a href="index.html">type 1</a>
-    <a href="next.html">type 2</a>
+    <a href="index.html"><p>type 1</p></a>
+    <a href="next.html"><p>type 2</p></a>
 </div>
 </body>
 </html>
